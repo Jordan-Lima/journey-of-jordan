@@ -5,8 +5,6 @@
     const count = ref(0)
 
     interface GithubRepo {
-        id: number
-        name: string
         full_name: string
         description: string | null
         html_url: string
