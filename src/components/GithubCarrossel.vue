@@ -47,6 +47,14 @@
         window.open(url_git, "_blank")
     }
 
+    const automaticSlide = () => {
+        setInterval(() => {
+            handleClickNext()
+        }, 2000)
+    }
+
+    automaticSlide()
+
 </script>
 
 <template>
