@@ -61,9 +61,9 @@
   <div class="sm:flex justify-center items-center w-full sm:mb-0 mb-5">
       <div class="sm:flex sm:justify-center items-center gap-2 bg-amber-200 border-1 sm:h-[150px]" v-if="githubInfo.length > 0">
         <div class="flex justify-center sm:h-[150px] items-center px-[30px] bg-[#bbeaf0] border-y-1 border-r-1">
-            <img :src="githubInfo[count].owner.avatar_url" class="w-[100px] xs:rounded-full sm:min-w-[130px] sm:h-[130px] my-2" alt="Avatar do Github">
+            <img :src="githubInfo[count].owner.avatar_url" class="w-[100px] sm:rounded-full sm:min-w-[130px] sm:h-[130px] my-2" alt="Avatar do Github">
         </div>
-        <div class="xs:py-auto py-5">
+        <div class="sm:py-auto py-5">
             <div class="flex flex-col w-full sm:h-full px-5"> 
                 <h3 class="flex justify-center items-center font-bold">
                     {{ githubInfo[count].full_name }}
